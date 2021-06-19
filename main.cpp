@@ -631,10 +631,10 @@ int main(int argc, char *argv[])
     glMaterialfv(GL_FRONT, GL_SPECULAR,  mat_specular);
     glMaterialfv(GL_FRONT, GL_SHININESS, high_shininess);
 
-    loadTexture("C:/Users/karan/OneDrive/Documents/Cpp/OPENGL/SNAKE-3D/res/tex/resume.bmp");
-    loadTexture("C:/Users/karan/OneDrive/Documents/Cpp/OPENGL/SNAKE-3D/res/tex/reset.bmp");
-    loadTexture("C:/Users/karan/OneDrive/Documents/Cpp/OPENGL/SNAKE-3D/res/tex/exit.bmp");
-    loadTexture("C:/Users/karan/OneDrive/Documents/Cpp/OPENGL/SNAKE-3D/res/tex/space.bmp");
+    loadTexture("./res/tex/resume.bmp");
+    loadTexture("./res/tex/reset.bmp");
+    loadTexture("./res/tex/exit.bmp");
+    loadTexture("./res/tex/space.bmp");
 
     glutMainLoop();
 
